@@ -45,7 +45,7 @@ export default function Home() {
         </ul>
       </nav>
       <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 ">
-        <Image src={profilePic} layout="fill" objectFit="cover"/>
+        <Image src={profilePic} layout="fill" objectFit="cover" alt="profilePic"/>
       </div>
       <div id="about" className="text-center p-10">
         <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Alan Pereyro</h2>
@@ -99,7 +99,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
           <div className="shadow-lg rounded-xl dark:bg-slate-900">
-            <Image src={BiteBud} layout="responsive" className="rounded-l"/>
+            <Image src={BiteBud} layout="responsive" className="rounded-l" alt="BiteBudScreenShot"/>
             <div className="p-5">
               <h3 className="text-2xl py-1 dark:text-slate-400">BiteBud</h3>
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-400">
@@ -116,7 +116,7 @@ export default function Home() {
             </div>
           </div>
           <div className="shadow-lg rounded-xl dark:bg-slate-900">
-            <Image src={BurgerBuilder} layout="responsive" className="rounded-l"/>
+            <Image src={BurgerBuilder} layout="responsive" className="rounded-l" alt="BurgerBuilderScreenShot"/>
             <div className="p-5">
               <h3 className="text-2xl py-1 dark:text-slate-400">Burger Builder</h3>
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-400">
@@ -133,7 +133,7 @@ export default function Home() {
             </div>
           </div>
           <div className="shadow-lg rounded-xl dark:bg-slate-900">
-            <Image src={FitnessIntoYourDay} layout="responsive" className="rounded-l "/>
+            <Image src={FitnessIntoYourDay} layout="responsive" className="rounded-l" alt="FitnessAppScreenShot"/>
             <div className="p-5">
               <h3 className="text-2xl py-1 dark:text-slate-400">Fitness Into Your Day</h3>
               <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-400">
