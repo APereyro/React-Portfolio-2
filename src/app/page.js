@@ -19,13 +19,13 @@ export default function Home() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_qnwvzgg', 'template_i2r3e5a', form.current, 'BcA3OzFEzoHu_wHlI')
+    emailjs.sendForm("service_qnwvzgg", "template_i2r3e5a", form.current, "BcA3OzFEzoHu_wHlI")
       .then((result) => {
-        alert('Message sent successfully!');
+        alert("Message sent successfully!");
         window.location.reload(false);
           console.log(result.text);
       }, (error) => {
-        alert('Message failed to send.');
+        alert("Message failed to send.");
           console.log(error.text);
       });
   };
