@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Alan Pereyro's Portfolio
 
-## Getting Started
+![Screenshot](screenshot.png)
 
-First, run the development server:
+Welcome to my personal portfolio website! This project showcases my skills, projects, and contact information. It's built using Next.js, React, and Tailwind CSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [About](#about)
+- [Skills](#skills)
+- [Projects](#projects)
+- [Contact](#contact)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## About
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Profile Picture](profile-pic.png)
 
-## Learn More
+I'm Alan Pereyro, a passionate Full-Stack Web Developer with a strong desire to learn and grow. This section provides a brief introduction to me, my dedication to web development, and my aspirations in the tech industry.
 
-To learn more about Next.js, take a look at the following resources:
+## Skills
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Skills](skills.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+I have acquired a range of skills through an intensive full-stack web development bootcamp. These skills include HTML, CSS, JavaScript, Node.js, and React. I gained practical experience by working on various projects, enhancing my problem-solving and collaborative abilities.
 
-## Deploy on Vercel
+## Projects
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Projects](projects.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+I have completed several projects during my web development journey. Some of these projects include:
+
+- **BiteBud:** A web app for searching recipes based on available ingredients.
+  [Live Demo](LIVE_DEMO_URL) | [GitHub Repo](GITHUB_REPO_URL)
+
+- **Burger Builder:** A web app for building custom burgers and placing orders.
+  [Live Demo](LIVE_DEMO_URL) | [GitHub Repo](GITHUB_REPO_URL)
+
+- **Fitness Into Your Day:** A web app for finding exercises based on muscle groups.
+  [Live Demo](LIVE_DEMO_URL) | [GitHub Repo](GITHUB_REPO_URL)
+
+## Contact
+
+![Contact](contact.png)
+
+I'm open to collaboration and new opportunities. Feel free to reach out to me via email or LinkedIn.
+
+- LinkedIn: [Alan Pereyro](https://www.linkedin.com/in/alan-pereyro-1aa770199/)
+- GitHub: [APereyro](https://github.com/APereyro)
+- Resume: [Google Drive](https://docs.google.com/document/d/e/2PACX-1vR6wlBoxAoV6qa84nAff07EHzhSVLzC7kR4BH1Q5tBUh2ZHEGseSYUHFWk0gZ-t8vz0gGozGWYQroIe/pub)
+
+---
+
+This portfolio is created with ❤️ by Alan Pereyro.
