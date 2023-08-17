@@ -11,6 +11,8 @@ import BurgerBuilder from "../../public/images/BurgerBuilder.png";
 import FitnessIntoYourDay from "../../public/images/FitnessIntoYourDay.png";
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
+import { BsFillBarChartFill } from "react-icons/bs";
+
 
 
 export default function Home() {
@@ -35,18 +37,44 @@ export default function Home() {
       <div className={darkMode ? "dark" : ""}>
     <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
       <section className="min-h-screen">
-      <nav className="py-10 mb-12 flex justify-between">
-        <h1 className="text-xl font-burtonsans dark:text-slate-400">Alan.Dev</h1>
-        <ul className="flex items-center">
-          <li><BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className="cursor-pointer text-xl dark:text-white transform scale-100 hover:scale-110 transition-transform duration-300"/></li>
-          <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-black hover:to-black hover:text-white transition-colors duration-300" href="#skills">Skills</a></li>
-          <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-black hover:to-black hover:text-white transition-colors duration-300" href="#projects">Projects</a></li>
-          <li><a className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:from-black hover:to-black hover:text-white transition-colors duration-300" href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 ">
-        <Image src={profilePic} layout="fill" objectFit="cover" alt="profilePic"/>
-      </div>
+      <nav className="py-4 md:py-6 lg:py-8 mb-12 flex flex-col md:flex-row md:justify-between items-center">
+    <h1 className="text-xl font-burtonsans dark:text-slate-400">alan-p-dev</h1>
+    <ul className="flex flex-col md:flex-row items-center md:space-x-6 space-y-4 md:space-y-0 md:ml-4">
+      <li>
+        <BsFillMoonStarsFill
+          onClick={() => setDarkMode(!darkMode)}
+          className="cursor-pointer text-xl dark:text-white transform scale-100 hover:scale-110 transition-transform duration-300"
+        />
+      </li>
+      <li>
+        <a
+          className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 md:px-4 py-1 md:py-2 rounded-md hover:from-black hover:to-black hover:text-white transition-colors duration-300"
+          href="#skills"
+        >
+          Skills
+        </a>
+      </li>
+      <li>
+        <a
+          className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 md:px-4 py-1 md:py-2 rounded-md hover:from-black hover:to-black hover:text-white transition-colors duration-300"
+          href="#projects"
+        >
+          Projects
+        </a>
+      </li>
+      <li>
+        <a
+          className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 md:px-4 py-1 md:py-2 rounded-md hover:from-black hover:to-black hover:text-white transition-colors duration-300"
+          href="#contact"
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 border-4 border-teal-500">
+  <Image src={profilePic} layout="fill" objectFit="cover" alt="profilePic" />
+</div>
       <div id="about" className="text-center p-10">
         <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">Alan Pereyro</h2>
         <h3 className="text-2xl py-2 md:text-3xl dark:text-slate-400">Full-Stack Web Developer</h3>
@@ -62,16 +90,15 @@ export default function Home() {
       </div>
       <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-slate-400">
   <a href="https://www.linkedin.com/in/alan-pereyro-1aa770199/" target="_blank" rel="noopener noreferrer">
-    <AiFillLinkedin className="text-6xl cursor-pointer hover:text-teal-500"/>
+    <AiFillLinkedin className="text-6xl cursor-pointer hover:text-blue-500"/>
   </a>
   <a href="https://github.com/APereyro" target="_blank" rel="noopener noreferrer">
-    <AiFillGithub className="text-6xl cursor-pointer hover:text-teal-500"/>
+    <AiFillGithub className="text-6xl cursor-pointer hover:text-purple-500"/>
   </a>
   <a href="https://docs.google.com/document/d/e/2PACX-1vR6wlBoxAoV6qa84nAff07EHzhSVLzC7kR4BH1Q5tBUh2ZHEGseSYUHFWk0gZ-t8vz0gGozGWYQroIe/pub" target="_blank" rel="noopener noreferrer">
-    <FaGoogleDrive className="text-6xl cursor-pointer hover:text-teal-500"/>
+    <FaGoogleDrive className="text-6xl cursor-pointer hover:text-green-500"/>
   </a>
 </div>
-
       </section>
       <section className="shadow-lg p-10 rounded-xl my-10  dark:bg-slate-800">
         <div id="skills">
@@ -81,12 +108,12 @@ export default function Home() {
           </p>
         </div>
         <div className="text-center">
-        <div className="text-6xl flex justify-center gap-16 py-3 text-gray-600 dark:text-slate-400 ">
-      <FaHtml5 className="text-6xl py-1 hover:text-orange-600 transform scale-100 hover:scale-125 transition-transform duration-300"/>
-      <FaCss3Alt className="text-6xl py-1 hover:text-blue-500 transform scale-100 hover:scale-125 transition-transform duration-300"/> 
-      <FaJsSquare className="text-6xl py-1 hover:text-yellow-500 transform scale-100 hover:scale-125 transition-transform duration-300"/>
-      <FaNodeJs className="text-6xl py-1 hover:text-green-500 transform scale-100 hover:scale-125 transition-transform duration-300"/>
-      <FaReact className="text-6xl py-1 hover:text-teal-500 transform scale-100 hover:scale-125 transition-transform duration-300"/>
+        <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-slate-400 ">
+      <FaHtml5 className="text-5xl py-1 hover:text-orange-600 transform scale-100 hover:scale-125 transition-transform duration-300"/>
+      <FaCss3Alt className="text-5xl py-1 hover:text-blue-500 transform scale-100 hover:scale-125 transition-transform duration-300"/> 
+      <FaJsSquare className="text-5xl py-1 hover:text-yellow-500 transform scale-100 hover:scale-125 transition-transform duration-300"/>
+      <FaNodeJs className="text-5xl py-1 hover:text-green-500 transform scale-100 hover:scale-125 transition-transform duration-300"/>
+      <FaReact className="text-5xl py-1 hover:text-teal-500 transform scale-100 hover:scale-125 transition-transform duration-300"/>
       </div>
         </div>
       </section>
@@ -151,7 +178,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="shadow-lg p-10 rounded-xl my-10 dark:bg-slate-800">
+      <section className="shadow-lg p-10 rounded-xl dark:bg-slate-800">
   <div id="contact">
     <h3 className="text-3xl py-1 dark:text-slate-400">Contact</h3>
     <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-400">
