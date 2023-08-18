@@ -5,10 +5,10 @@ import { Fade } from "react-awesome-reveal";
 import ScrollIntoViewIfNeeded from "react-scroll-into-view-if-needed";
 import Image from "next/image";
 import profilePic from "../../public/images/profilePic.jpg";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
-import About from "./components/About";
-import Projects from "./components/Projects";
+import Skills from "./components/skills";
+import Contact from "./components/contact";
+import About from "./components/about";
+import Projects from "./components/projects";
 
 // function withDelay(Component, delay = 1000) {
 //   return function DelayedComponent(props) {
