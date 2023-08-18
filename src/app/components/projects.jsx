@@ -4,7 +4,7 @@ import { FaLink, FaGoogleDrive } from "react-icons/fa";
 import Image from "next/image";
 import {data} from "../../assets/projectData"
 
-const projects = () => {
+const Projects = () => {
   return (
       <div className="shadow-lg p-10 rounded-xl my-10  dark:bg-slate-800">
           <div id="projects">
@@ -66,4 +66,4 @@ const projects = () => {
   )
 }
 
-export default projects
+export default Projects

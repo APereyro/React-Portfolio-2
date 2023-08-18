@@ -2,7 +2,7 @@ import React from 'react'
 import {FaLink,FaTwitter, FaDiscord,FaCss3Alt,FaHtml5,FaGoogleDrive,FaInstagram,FaJsSquare,FaNodeJs,FaReact,FaSlack,FaStackOverflow,FaTelegram} from "react-icons/fa";
 import { Slide } from "react-awesome-reveal";
 
-const skills = () => {
+const Skills = () => {
   return (
     <div>
 <section className="shadow-lg p-4 md:p-10 rounded-xl my-4 md:my-10 dark:bg-slate-800">
@@ -28,4 +28,4 @@ const skills = () => {
   )
 }
 
-export default skills
+export default Skills

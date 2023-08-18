@@ -2,7 +2,7 @@ import React, {useState, useRef}  from 'react'
 import emailjs from "@emailjs/browser";
 import {FaLink,FaTwitter, FaDiscord,FaCss3Alt,FaHtml5,FaGoogleDrive,FaInstagram,FaJsSquare,FaNodeJs,FaReact,FaSlack,FaStackOverflow,FaTelegram} from "react-icons/fa";
 
-const contact = () => {
+const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -81,4 +81,4 @@ const contact = () => {
   )
 }
 
-export default contact
+export default Contact

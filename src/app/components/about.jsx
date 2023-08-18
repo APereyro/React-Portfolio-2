@@ -3,7 +3,7 @@ import {AiFillLinkedin, AiFillGithub} from "react-icons/ai";
 import {FaLink,FaGoogleDrive} from "react-icons/fa";
 import { Slide,Roll,Bounce } from "react-awesome-reveal";
 
-const about = () => {
+const About = () => {
   return (
     <div>
        <div id="about" className="text-center p-10">
@@ -36,4 +36,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
