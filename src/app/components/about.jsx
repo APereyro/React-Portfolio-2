@@ -27,7 +27,7 @@ const about = () => {
   <a href="https://github.com/APereyro" target="_blank" rel="noopener noreferrer">
     <AiFillGithub className="text-5xl cursor-pointer hover:text-purple-500"/>
   </a>
-  <a href="https://docs.google.com/document/d/e/2PACX-1vR6wlBoxAoV6qa84nAff07EHzhSVLzC7kR4BH1Q5tBUh2ZHEGseSYUHFWk0gZ-t8vz0gGozGWYQroIe/pub" target="_blank" rel="noopener noreferrer">
+  <a href="https://drive.google.com/file/d/14LoguFnbbiAeYEJje93zt3-xfwCGKzyy/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
     <FaGoogleDrive className="text-5xl cursor-pointer hover:text-green-500"/>
   </a>
     </Roll>

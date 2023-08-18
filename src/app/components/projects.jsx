@@ -10,12 +10,11 @@ const projects = () => {
           <div id="projects">
             <h3 className="text-3xl py-1 dark:text-slate-400">Projects</h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-slate-400">
-              Throughout the bootcamp, I worked on a variety of projects, both
+             I've worked on a variety of projects, both
               individually and in teams. These projects allowed me to apply my
               skills in a practical setting, while also providing me with
               valuable experience working in a collaborative environment. Below
-              are some of the projects I worked on during the bootcamp and
-              after.
+              are some of the projects I've worked on.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-10">
@@ -50,7 +49,7 @@ const projects = () => {
                   </a>
                   <a
                     className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md transform scale-100 hover:scale-110 transition-transform duration-300"
-                    href="{item.github}"
+                    href={item.github}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
