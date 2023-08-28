@@ -80,7 +80,7 @@ export default function Home() {
                   <li>
                     <a
                       className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 md:px-4 py-1 md:py-2 rounded-md hover:from-black hover:to-black hover:text-white transition-colors duration-300"
-                      href="https://drive.google.com/file/d/14LoguFnbbiAeYEJje93zt3-xfwCGKzyy/view?usp=drive_link"
+                      href="https://drive.google.com/file/d/1QsZS6qL4ykB5KPr5FByeTaU-y_2j0-04/view?usp=sharing"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
